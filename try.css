@@ -1,11 +1,10 @@
-
 h1 {
     color: brown
 }
 
 body {
     margin: 0;
-   font-family: 'Assistant', sans-serif;
+    font-family: 'Assistant', sans-serif;
     line-height: 1.5;
 }
 
@@ -21,17 +20,17 @@ img {
     margin: auto;
 }
 
-    .cta  {
-        color: antiquewhite;
-        font-family: 21px;
-            
-    }
-    
-    .button {
-  background: #08c;
-  color: #fff;
-  text-decoration: none;
-  padding: 14px;
-  display: inline-block;
+.cta {
+    color:
+        brown;
+    font-family: 18px;
+
 }
-    
+
+.button {
+    background: #08c;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px;
+    display: inline-block;
+}
