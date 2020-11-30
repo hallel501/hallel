@@ -26,6 +26,7 @@ img {
     text-align: center;
     padding: 20px;
     margin-top: 50 px;
+    overflow: hidden;
 }
 
 .cta {
@@ -36,9 +37,20 @@ img {
 }
 
 .button {
-    background: #08c;
+    background: #e9ba2c
     color: #fff;
     text-decoration: none;
     padding: 14px;
     display: inline-block;
+}
+
+.button-black {
+    background: #e8482e
+}
+
+.alignleft {
+    max-width: 200px
+    float: left;
+    margin-right:px; 14px
+    margin-bottom; 14px
 }
