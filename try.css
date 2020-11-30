@@ -21,6 +21,14 @@ img {
 }
 
 .cta {
+    background: beige;
+    font-size: 21px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50 px;
+}
+
+.cta {
     color:
         brown;
     font-family: 18px;
