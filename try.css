@@ -25,19 +25,19 @@ img {
     font-size: 21px;
     text-align: center;
     padding: 20px;
-    margin-top: 50 px;
+    margin-top: 50px;
     overflow: hidden;
 }
 
 .cta {
     color:
         brown;
-    font-family: 18px;
+    font-family:18px;
 
 }
 
 .button {
-    background: #e9ba2c
+    background: #e24826;
     color: #fff;
     text-decoration: none;
     padding: 14px;
@@ -45,12 +45,12 @@ img {
 }
 
 .button-black {
-    background: #e8482e
+    background: #000
 }
 
 .alignleft {
-    max-width: 200px
+    max-width: 50%;
     float: left;
-    margin-right:px; 14px
-    margin-bottom; 14px
+    margin-right:14px; 
+    margin-bottom: 14p;
 }
