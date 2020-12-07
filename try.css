@@ -54,3 +54,16 @@ img {
     margin-right:14px; 
     margin-bottom: 14p;
 }
+.news {
+   padding: 60px;
+     background:url(img/t.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-family:'Assistant', sans-serif;
+}
+.news h2 {
+    color: #274f48;
+}
