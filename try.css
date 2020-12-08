@@ -21,23 +21,22 @@ img {
 }
 
 .cta {
-    background: beige;
+    background:#fdeee3;
     font-size: 21px;
-    text-align: center;
+    text-align:center;
     padding: 20px;
     margin-top: 50px;
-    overflow: hidden;
+    overflow:hidden;
 }
 
 .cta {
-    color:
-        brown;
+    color:#005556;
     font-family:18px;
 
 }
 
 .button {
-    background: #e24826;
+    background:#f67a8a;
     color: #fff;
     text-decoration: none;
     padding: 14px;
