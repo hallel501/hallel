@@ -21,22 +21,22 @@ img {
 }
 
 .cta {
-    background:#fdeee3;
+    background: #fdeee3;
     font-size: 21px;
-    text-align:center;
+    text-align: center;
     padding: 20px;
     margin-top: 50px;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .cta {
-    color:#005556;
-    font-family:18px;
+    color: #005556;
+    font-family: 18px;
 
 }
 
 .button {
-    background:#f67a8a;
+    background: #f67a8a;
     color: #fff;
     text-decoration: none;
     padding: 14px;
@@ -50,19 +50,42 @@ img {
 .alignleft {
     max-width: 50%;
     float: left;
-    margin-right:14px; 
+    margin-right: 14px;
     margin-bottom: 14p;
 }
+
 .news {
-   padding: 60px;
-     background:url(img/t.jpg);
+    padding: 60px;
+    /*   background:url(img/t.jpg);*/
+
+    background-image: linear-gradient(rgba(#fff, 0.4), rgba(#fff, 0.4)), url(img/t.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
     font-size: 18px;
     color: black;
-    font-family:'Assistant', sans-serif;
+    font-family: 'Assistant', sans-serif;
 }
+
 .news h2 {
     color: #274f48;
+}
+
+input {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: 2px solid #fff;
+    padding: 5px;
+}
+labal {
+    margin-bottom: 20px;
+    display: block;
+}
+label span {
+    display: inline-block;
+    width: 100px;
+}
+.news .button {
+    background: none;
 }
