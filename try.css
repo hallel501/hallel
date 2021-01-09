@@ -56,9 +56,9 @@ img {
 
 .news {
     padding: 60px;
-    /*   background:url(img/t.jpg);*/
+    background: url(img/t.jpg);
 
-    background-image: linear-gradient(rgba(#fff, 0.4), rgba(#fff, 0.4)), url(img/t.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(img/t.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -78,14 +78,36 @@ input {
     border: 2px solid #fff;
     padding: 5px;
 }
+imput:focus {
+    input:focus {
+  outline: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+}
+
 labal {
     margin-bottom: 20px;
     display: block;
 }
+
 label span {
-    display: inline-block;
+    display: block;
     width: 100px;
 }
+
 .news .button {
     background: none;
+}
+.news .button:hover {  background: #fff;
+  color: #000;
+}
+
+label span {
+    display: block;
+
+}
+
+label {
+    display: block;
 }

@@ -1,0 +1,46 @@
+h1,h2,h3,h4 {font-family: 'Heebo', sans-serif;
+}
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+.about {
+    background:#c9b9c5;
+    font-size: 18px;
+    color: white;
+}
+.container {
+    max-width: 1024px;
+    margin: auto;
+}
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+.about .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 30px;
+}
+.about img {
+    display: block;
+}
+h1 {
+     font-size: 46px;
+    line-height: 1.1;
+}
+.button {
+    background:white;
+    color: #c9b9c5;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 10px;
+     
+}
+.button:hover {
+    background: #48adb3;
+    color: white;
+}
