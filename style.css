@@ -44,3 +44,8 @@ h1 {
     background: #48adb3;
     color: white;
 }
+.logo{
+    max-width:250px;
+    display: block;
+    margin:  15px auto;
+}
