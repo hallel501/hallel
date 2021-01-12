@@ -57,13 +57,17 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 28px;
-    
+    font-size: 21px;
+ text-align: center;
+    font-weight: 500;
+    color: #48adb3;
 }
 
 .gallery img {
     display: block;
-
 }
+img
+
 h2 {
     text-align: center;
 }
