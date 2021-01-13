@@ -69,3 +69,29 @@ h1 {
 h2 {
     text-align: center;
 }
+.cta{
+background: #c9b9c5;
+text-align: center;
+    color: #fff;
+}
+
+.cta .container{
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  grid-gap: 100px;
+line-height: 1;
+padding: 30px;
+}
+.button1 {
+   background:white;
+    color: #c9b9c5;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 21px;
+     
+}
+.button1:hover {
+ background: #48adb3;
+    color: white;}
