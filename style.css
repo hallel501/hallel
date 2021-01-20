@@ -57,7 +57,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 28px;
-    font-size: 21px;
+    font-size: 24px;
  text-align: center;
     font-weight: 500;
     color: #48adb3;
@@ -67,31 +67,43 @@ h1 {
     display: block;
 }
 h2 {
+    color: #fff;
     text-align: center;
 }
-.cta{
-background: #c9b9c5;
-text-align: center;
-    color: #fff;
+.name {
+    max-width: 250px;
+    
+}
+a {
+  color: #fff;
 }
 
-.cta .container{
-  grid-template-columns: 2fr 1fr;
-  align-items: center;
-  grid-gap: 100px;
-line-height: 1;
-padding: 30px;
+.contact {
+  background: #c9b9c5;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 60px;
+  padding: 40px 0;
 }
-.button1 {
-   background:white;
-    color: #c9b9c5;
-    text-decoration: none;
-    padding: 15px 20px;
-    display: inline-block;
-    margin-top: 10px;
-    font-size: 21px;
-     
+.contact a:hover {
+  color:#48adb3 ;
 }
-.button1:hover {
- background:#48adb3;
-    color: white;}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+.contact li {
+  margin-bottom: 7px;
+}
+.footer {
+  background: #fff;
+  text-align: center;
+  padding: 40px 0;
+
+}
+.footer a {
+  margin: 0 10px;
+}
+
+
