@@ -6,11 +6,11 @@ body {
 
 .about {
     background:#c9b9c5;
-    font-size: 18px;
+    font-size: 18dp;
     color: white;
 }
 .container {
-    max-width: 960px;
+    max-width: 960dp;
     margin: auto;
 }
 img {
@@ -22,22 +22,22 @@ img {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     align-items: center;
-    grid-gap: 30px;
+    grid-gap: 30dp;
 }
 .about img {
     display: block;
 }
 h1 {
-     font-size: 46px;
+     font-size: 46dp;
     line-height: 1.1;
 }
 .button {
     background:white;
     color: #c9b9c5;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 10dp 15dp;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 10dp;
      
 }
 .button:hover {
@@ -45,9 +45,9 @@ h1 {
     color: white;
 }
 .logo{
-    max-width:250px;
+    max-width:250dp;
     display: block;
-    margin:  15px auto;
+    margin:  15dp auto;
 }
 
 
@@ -56,8 +56,8 @@ h1 {
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 28px;
-    font-size: 24px;
+    grid-gap: 28dp;
+    font-size: 24dp;
  text-align: center;
     font-weight: 500;
     color: #48adb3;
@@ -71,7 +71,7 @@ h2 {
     text-align: center;
 }
 .name {
-    max-width: 320px;
+    max-width: 320dp;
     
 }
 a {
@@ -80,10 +80,10 @@ a {
 
 .contact {
   background: #c9b9c5;
-  font-size: 24px;
+  font-size: 21dp;
   text-align: center;
-  margin-top: 60px;
-  padding: 40px 0;
+  margin-top: 60dp;
+  padding: 40dp 0;
 }
 .contact a:hover {
   color:#48adb3 ;
@@ -94,16 +94,16 @@ a {
   padding: 0;
 }
 .contact li {
-  margin-bottom: 7px;
+  margin-bottom: 7dp;
 }
 .footer {
   background: #fff;
   text-align: center;
-  padding: 40px 0;
+  padding: 40dp;;
 
 }
 .footer a {
-  margin: 0 10px;
+  margin: 0 10dp;
 }
 
 
