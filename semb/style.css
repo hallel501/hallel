@@ -132,16 +132,54 @@ header {
   text-align: center;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+
+    
 }
-nav a {
-  text-decoration: none;
-  color: #fff;
-  padding: 10px;
-  display: block;
+nav a{
+    color: #fff;
+    padding: 50px;
+    text-decoration: none;
+    transition: .3s;
+
 }
 
+nav a:hover{
+    color: #217caa;
+}
+
+
+
+
+
+.headerr {
+
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    color: #fff;
+    display: table;
+   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+    padding: 0 10px;
+    height: 87px;
+}
+
+.header-right {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    height: 100%;
+   
+      
+}
+
+.header-center-kdm {
+    display: inline-block;
+    
