@@ -56,11 +56,11 @@ img {
     margin: auto;
     text-align: center;
     display: block;
-padding: 50px 0;   
+padding: 50px 0;
     background-position: bottom;
     background-size: cover;
-        background-attachment:fixed;
-
+    background-attachment:fixed;
+    padding-top: 48px;
 }
 
 
@@ -108,11 +108,11 @@ a {
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 60px;
+    grid-gap: 48px;
 }
 
 .features img {
-    max-width: 100px;
+    max-width: 85px;
 }
 
 .features h2:after {
@@ -163,10 +163,8 @@ nav a:hover{
 
     position: fixed;
     width: 100%;
-    z-index: 999;
     color: #fff;
-    display: table;
-   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+  background: rgba(255,255,255,0.2);
     padding: 0 10px;
     height: 87px;
 }
@@ -186,3 +184,9 @@ nav a:hover{
 
 .header-left {
     
+
+    .current a{
+        font-weight: bold;
+    }
+    
+
