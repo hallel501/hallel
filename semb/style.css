@@ -1,44 +1,45 @@
 @font-face {
-  font-family: 'opensans';
-  src: url('fonts/opensans/400/opensanshebrew-regular.woff') format('woff');
+  font-family: 'stanga';
+  src: url('fonts/stanga/400/stanga-aaa-400.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'opensans';
-  src: url('fonts/opensans/700/opensanshebrew-bold.woff') format('woff');
+  font-family: 'stanga';
+  src: url('fonts/stanga/700/stanga-aaa-700.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
 
 body {
     margin: 0;
-    font-family: 'opensans';
+    font-family: 'stanga', arial, sans-serif;
     font-weight: 400;
     line-height: 1.5;
-    background: #9e928e;
-    color: white;
+    background: #9bb8c8;
 }
 
 
 
 h1 {
-    font-family: 'opensans';
+    font-family: 'stanga';
     font-weight: 700;
-    font-size: 34px;
+    font-size: 56px;
 }
 
 h2 {
-    color: #217caa;
+    color:white;
 
 }
+
+
 
 
 h1:after {
     content: "";
     border-bottom: 3px solid #fff;
-    width: 90px;
+    width: 120px;
     display: block;
     margin: auto;
 }
@@ -52,26 +53,21 @@ img {
 }
 
 .banner {
-    background-image: linear-gradient(rgba(32, 29, 24, 0.4), rgba(32, 29, 24, 0.4)), url("img/coffee.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/socks.jpg");
     margin: auto;
     text-align: center;
     display: block;
-padding: 50px 0;
-    background-position: bottom;
+padding: 40px 0;
+    background-position: center 30%;
     background-size: cover;
     background-attachment:fixed;
-    padding-top: 48px;
+    padding-top: 21px;
     position: relative;
+    color: white;
 }
 
 
-.button {
-    text-decoration: none;
-    color: #217caa;
-    background: #fff;
-    padding: 10px 20px;
-    display: inline-block;
-    transition: .3s;
+
 
 }
 .button:after {
@@ -89,7 +85,7 @@ padding: 50px 0;
     margin: auto;
    text-align: center; 
     margin: auto;
-    font-size: 18px;
+    font-size: 28px;
   
 
     
@@ -97,20 +93,17 @@ padding: 50px 0;
 }
 
 .banner .container {
-    max-width: 400px;
+    max-width: 100x;
 }
 
 a {
     color: #fff;
 }
 
-.banner.container {
-    max-width: 600px;
 
-}
 
 .features {
-    background: #000;
+    background: #d3ad40;
     text-align: center;
     padding: 20px;
 }
@@ -124,7 +117,7 @@ a {
 }
 
 .features img {
-    max-width: 85px;
+    max-width: 120px;
 }
 
 .features h2:after {
@@ -132,10 +125,10 @@ a {
 }
 
 footer {
-  background: #000;
+  background: #9bb8c8;
   color: #fff;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
 }
 footer a {
   color: #fff;
@@ -159,12 +152,12 @@ nav a{
     color: #fff;
     padding: 50px;
     text-decoration: none;
-    transition: 0.3s;
+    display: block;
 
 }
 
 nav a:hover{
-    color: #217caa;
+    color: #d3ad40;
 }
 
 
@@ -184,51 +177,12 @@ nav a:hover{
 
 .current a{
         font-weight: bold;
+    color:#d3ad40; 
     }
-.custom-shape-divider-bottom-1620631467 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1620631467 svg {
-    position: relative;
-    display: block;
-    width: calc(125% + 1.3px);
-    height: 72px;
-}
-
-.custom-shape-divider-bottom-1620631467 .shape-fill {
-    fill: #000000;
-}
-    
 
 
 .about {
     position: relative;
     padding: 56px 0;
 }
-.custom-shape-divider-bottom-1620636689 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
 
-.custom-shape-divider-bottom-1620636689 svg {
-    position: relative;
-    display: block;
-    width: calc(127% + 1.3px);
-    height: 58px;
-}
-
-.custom-shape-divider-bottom-1620636689 .shape-fill {
-    fill: #9E928E;
-}
