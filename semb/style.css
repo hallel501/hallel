@@ -178,6 +178,7 @@ nav a:hover{
 .current a{
         font-weight: bold;
     color:#d3ad40; 
+    border-bottom: 3px;
     }
 
 
@@ -185,4 +186,10 @@ nav a:hover{
     position: relative;
     padding: 56px 0;
 }
-
+h2:after {
+    content: "";
+    border-bottom: 3px solid #fff;
+    width: 120px;
+    display: block;
+    margin: auto;
+}
