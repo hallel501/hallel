@@ -87,15 +87,23 @@ padding: 40px 0;
     margin: auto;
     font-size: 28px;
   
-
-    
-  
+}
+.container h2{
+    color: white;
+    font-size:54px;
+    margin:12px;
+}
+.container h3{
+    color: #000;
+    font-size:32px;
+    margin:12px;
 }
 
 
 
 a {
     color: #fff;
+      margin: 5px;
 }
 
 
@@ -129,6 +137,9 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+
+
 footer a {
   color: #fff;
 }
