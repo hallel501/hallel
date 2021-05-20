@@ -212,3 +212,48 @@ h2:after {
 .sale li{
     margin: 20px;
 }
+.food {
+      list-style: none;
+    padding: 0;
+    display: flex;
+    
+}
+.food li{
+    margin: 10px;
+}
+.art {
+      list-style: none;
+    padding: 0;
+    display: flex;
+    
+}
+.art li{
+    margin: 10px;
+}
+.animals {
+      list-style: none;
+    padding: 0;
+    display: flex;
+    
+}
+.animals li{
+    margin: 10px;
+}
+.tv {
+      list-style: none;
+    padding: 0;
+    display: flex;
+    
+}
+.tv li{
+    margin: 10px;
+}
+.special {
+      list-style: none;
+    padding: 0;
+    display: flex;
+    
+}
+.special li{
+    margin: 10px;
+}
