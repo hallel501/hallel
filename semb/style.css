@@ -92,9 +92,7 @@ padding: 40px 0;
   
 }
 
-.banner .container {
-    max-width: 100x;
-}
+
 
 a {
     color: #fff;
@@ -106,6 +104,7 @@ a {
     background: #d3ad40;
     text-align: center;
     padding: 20px;
+   
 }
 
 .features ul {
@@ -192,4 +191,13 @@ h2:after {
     width: 120px;
     display: block;
     margin: auto;
+}
+
+.sale {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.sale li{
+    margin: 20px;
 }
