@@ -160,7 +160,8 @@ nav ul{
 }
 nav a{
     color: #fff;
-    padding: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
     text-decoration: none;
     display: block;
 
@@ -187,8 +188,8 @@ nav a:hover{
 
 .current a{
         font-weight: bold;
-    color:#d3ad40; 
-    border-bottom: 3px;
+    border-bottom: 3px solid #d3ad40;
+    
     }
 
 
@@ -196,7 +197,7 @@ nav a:hover{
     position: relative;
     padding: 56px 0;
 }
-h2:after {
+nav h2:after {
     content: "";
     border-bottom: 3px solid #fff;
     width: 120px;
