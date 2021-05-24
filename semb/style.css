@@ -53,7 +53,7 @@ img {
 }
 
 .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/socks.jpg");
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2) 20%), url(img/socks.jpg);
     margin: auto;
     text-align: center;
     display: block;
@@ -76,7 +76,7 @@ padding: 40px 0;
 }
 
 .button:hover {
-    background: #d3ad40;
+    background: #d38ea3;
     color: #fff;
 }
 
@@ -160,8 +160,7 @@ nav ul{
 }
 nav a{
     color: #fff;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin: 0 20px;
     text-decoration: none;
     display: block;
 
@@ -287,4 +286,9 @@ input:focus, textarea:focus {
 
 .button {
     transition: 0.3s;
+    color: #fff;
+    background-color: #d3ad40;
+    
+   
+    
 }
