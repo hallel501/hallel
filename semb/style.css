@@ -292,3 +292,35 @@ input:focus, textarea:focus {
    
     
 }
+
+.branch {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.branch li{
+    margin: auto;
+}
+
+.img-wrap {
+  position: relative;
+}
+.caption {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  background:linear-gradient(transparent,rgba(0,0,0,0.6));
+  color: #fff;
+  padding: 5px;
+    padding-top: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+.img-wrap:hover .caption {
+    opacity: 1;
+}
+
