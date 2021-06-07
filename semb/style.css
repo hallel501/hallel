@@ -307,7 +307,7 @@ input:focus, textarea:focus {
   position: relative;
 }
 .caption {
-  font-size: 16px;
+  font-size: 21px;
   margin: 0;
   text-align: center;
   background:linear-gradient(transparent,rgba(0,0,0,0.6));
@@ -323,4 +323,9 @@ input:focus, textarea:focus {
 .img-wrap:hover .caption {
     opacity: 1;
 }
+
+.img-wrap img {
+    display: block;
+}
+
 
