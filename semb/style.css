@@ -103,7 +103,7 @@ padding: 40px 0;
 
 
 .features {
-    background: #413435;
+    background: #3a3134;
     text-align: center;
     padding: 20px;
     
@@ -137,7 +137,7 @@ padding: 40px 0;
 }
 
 footer {
-  background: #413435;
+  background: #3a3134;
   color: #fff;
   text-align: center;
   padding: 10px;
@@ -349,7 +349,7 @@ input:focus, textarea:focus {
 }
 
 .c {
-    background: #413435;
+    background: #3a3134;
     padding: auto;
 }
 
@@ -371,4 +371,45 @@ input:focus, textarea:focus {
 .d .button {
  border-radius: 50px;
 
+}
+
+.custom-shape-divider-bottom-1626693217 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1626693217 svg {
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 70px;
+}
+
+.custom-shape-divider-bottom-1626693217 .shape-fill {
+    fill: #3A3134;
+}
+.custom-shape-divider-top-1626694817 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1626694817 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 39px;
+}
+
+.custom-shape-divider-top-1626694817 .shape-fill {
+    fill: #3A3134;
 }
