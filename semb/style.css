@@ -82,6 +82,8 @@ padding: 40px 0;
    text-align: center; 
     font-size: 28px;
     padding:10px;
+    position: relative;
+    padding-bottom: 30px;
 }
 .container h2{
     color: white;
@@ -106,6 +108,7 @@ padding: 40px 0;
     background: #3a3134;
     text-align: center;
     padding: 20px;
+     position: relative;
     
    
 }
@@ -351,6 +354,9 @@ input:focus, textarea:focus {
 .c {
     background: #3a3134;
     padding: auto;
+   position: relative;
+    padding-bottom: 30px;
+
 }
 
 .features h3 {
@@ -411,5 +417,115 @@ input:focus, textarea:focus {
 }
 
 .custom-shape-divider-top-1626694817 .shape-fill {
+    fill: #3A3134;
+}
+
+
+.custom-shape-divider-bottom-1626777276 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1626777276 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 21px;
+}
+
+.custom-shape-divider-bottom-1626777276 .shape-fill {
+    fill: #9BB8C8;
+}
+
+.custom-shape-divider-top-1626777524 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1626777524 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 21px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1626777524 .shape-fill {
+    fill: #9BB8C8;
+}
+.custom-shape-divider-top-1626777690 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1626777690 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 27px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1626777690 .shape-fill {
+    fill: #3A3134;
+}
+.d {
+    position: relative;
+    padding-bottom: 30px;
+
+}
+
+.custom-shape-divider-bottom-1626778120 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1626778120 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 38px;
+}
+
+.custom-shape-divider-bottom-1626778120 .shape-fill {
+    fill: #3A3134;
+}
+
+.custom-shape-divider-bottom-1626778190 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1626778190 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 24px;
+}
+
+.custom-shape-divider-bottom-1626778190 .shape-fill {
     fill: #3A3134;
 }
