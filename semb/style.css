@@ -529,3 +529,7 @@ input:focus, textarea:focus {
 .custom-shape-divider-bottom-1626778190 .shape-fill {
     fill: #3A3134;
 }
+.e {
+      position: relative;
+    padding-bottom: 30px;
+}
